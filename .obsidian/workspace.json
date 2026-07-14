@@ -1,0 +1,235 @@
+{
+  "main": {
+    "id": "f698df0026b56501",
+    "type": "split",
+    "children": [
+      {
+        "id": "478bf5da774c9b1d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "898606537dcb0dc5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Py-Java Cheetsheet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Py-Java Cheetsheet"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ebf0ab7b7fe4f91c",
+    "type": "split",
+    "children": [
+      {
+        "id": "9d58e559577e1a5d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb0e1d8dde7126d2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "877af3821706370e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:excalidraw",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "44f43b077bc201f5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "244a8a4943cf51e6",
+    "type": "split",
+    "children": [
+      {
+        "id": "1efda9adea692d9b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "688c79cce6290db4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Intuition Points - Tips/Intuitions.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Intuitions"
+            }
+          },
+          {
+            "id": "abcd7ac1b2f4e6eb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Intuition Points - Tips/Intuitions.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Intuitions"
+            }
+          },
+          {
+            "id": "9720a96aeec1a2ce",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7c14bbca82db62e3",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "be1894e5f501737a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Excalidraw/LC-3532.excalidraw.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of LC-3532.excalidraw"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "fb0e1d8dde7126d2",
+  "lastOpenFiles": [
+    "Notes_PDFs/Py-Java Cheetsheet.pdf",
+    "Py-Java Cheetsheet.md",
+    "Notes_PDFs/Python Course with Notes/11. Chapter 11/Chapter 11.pdf",
+    "Notes_PDFs/Python Course with Notes/10. Chapter 10/Chapter 10 - Oops.pdf",
+    "Notes_PDFs/Python Course with Notes CPH/9. Chapter 9/tables/Multiplication_table_of_9.txt",
+    "Notes_PDFs/Python Course with Notes CPH/9. Chapter 9/tables/Multiplication_table_of_8.txt",
+    "Notes_PDFs/Python Course with Notes CPH/9. Chapter 9/tables/Multiplication_table_of_7.txt",
+    "Notes_PDFs/Python Course with Notes CPH/9. Chapter 9/tables/Multiplication_table_of_6.txt",
+    "Notes_PDFs/Python Course with Notes CPH/9. Chapter 9/tables/Multiplication_table_of_5.txt",
+    "Notes_PDFs/Python Course with Notes CPH/9. Chapter 9/tables/Multiplication_table_of_4.txt",
+    "LC_WhiteBoard_Sol/Pasted Image 20260522180938_129.png",
+    "LC_WhiteBoard_Sol/Pasted Image 20260506081217_290.png",
+    "LC_WhiteBoard_Sol/Pasted Image 20260506081156_601.png",
+    "LC_WhiteBoard_Sol/992. Subarrays with K Different Integers.md",
+    "LC_WhiteBoard_Sol/838. Push Dominoes.excalidraw.md",
+    "LC_WhiteBoard_Sol/1861. Rotating the Box.md",
+    "LC_WhiteBoard_Sol/788 Rotated Digits.md",
+    "LC_WhiteBoard_Sol/143. Reorder List.md",
+    "Gems/Elite DSA Cook.md",
+    "Excalidraw/LC-3532.excalidraw.md",
+    "Excalidraw/Pasted Image 20260709111833_384.png",
+    "LC/992. Subarrays with K Different Integers.md",
+    "LC/838. Push Dominoes.excalidraw.md",
+    "LC/788 Rotated Digits.md",
+    "LC/143. Reorder List.md",
+    "OOPs/OOps.md",
+    "OOPs/Association.md",
+    "Stacks/Stacks Mastery.md",
+    "Stacks/Beginner Patterns.md",
+    "Excalidraw/Drawing 2026-05-29 19.34.23.excalidraw.md",
+    "WEB/Promises.md",
+    "Intuition Points - Tips/Patterns Formulas.md",
+    "DecodeLabs/P1_Architecture.excalidraw.md",
+    "eye1.png",
+    "Phone_VR_BG.png",
+    "Excalidraw/Drawing 2026-05-26 19.19.54.excalidraw.md",
+    "Concepts/TODO.md",
+    "LC/Pasted Image 20260522180938_129.png",
+    "LC/Untitled.md",
+    "LC/Pasted Image 20260506081156_601.png",
+    "LC/1861. Rotating the Box.md",
+    "Intuition Points - Tips/Intuitions.md",
+    "LC/Pasted image 20260509191656.png",
+    "LC/Pasted Image 20260506081217_290.png"
+  ]
+}
