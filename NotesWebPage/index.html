@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeNode - DSA Journey</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Highlight.js for code syntax highlighting -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/atom-one-dark.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <span class="logo-icon">{...}</span> CodeNote
+            </div>
+            
+            <div class="nav-section">
+                <h4>Navigate DSA</h4>
+                <ul id="topicFilters">
+                    <li class="active" data-topic="all">All Topics</li>
+                    <li data-topic="Array">Array <span class="count" id="count-Array">[0]</span></li>
+                    <li data-topic="Linked List">Linked List <span class="count" id="count-Linked List">[0]</span></li>
+                    <li data-topic="Trees">Trees <span class="count" id="count-Trees">[0]</span></li>
+                    <li data-topic="Graphs">Graphs <span class="count" id="count-Graphs">[0]</span></li>
+                    <li data-topic="Math">Math <span class="count" id="count-Math">[0]</span></li>
+                    <li data-topic="Stacks">Stacks <span class="count" id="count-Stacks">[0]</span></li>
+                    <li data-topic="Dynamic Programming">Dynamic Programming <span class="count" id="count-Dynamic Programming">[0]</span></li>
+                    <li data-topic="Sorting">Sorting <span class="count" id="count-Sorting">[0]</span></li>
+                    <li data-topic="String">String <span class="count" id="count-String">[0]</span></li>
+                </ul>
+            </div>
+
+            <div class="nav-section">
+                <h4>Difficulty</h4>
+                <div class="tags filter-tags" id="difficultyFilters">
+                    <span class="tag easy" data-filter="easy">Easy</span>
+                    <span class="tag medium" data-filter="medium">Medium</span>
+                    <span class="tag hard" data-filter="hard">Hard</span>
+                </div>
+            </div>
+
+            <div class="nav-section">
+                <h4>Status</h4>
+                <div class="tags filter-tags" id="statusFilters">
+                    <span class="tag solved" data-filter="solved">Solved</span>
+                    <span class="tag attempted" data-filter="attempted">Attempted</span>
+                    <span class="tag new" data-filter="new">New</span>
+                </div>
+            </div>
+
+            <div class="nav-section">
+                <h4>Custom Tags</h4>
+                <div class="tags filter-tags" id="customTagsFilters">
+                    <!-- Dynamic custom tags injected here -->
+                </div>
+            </div>
+
+            <div class="nav-section" style="margin-top: auto;">
+                <button id="resetFiltersBtn" class="btn" style="width: 100%; display: flex; justify-content: center; align-items: center; gap: 8px;">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+                    Reset Filters
+                </button>
+            </div>
+        </aside>
+
+        <!-- Main Workspace -->
+        <div class="main-workspace">
+            <!-- Top Navbar -->
+            <header class="top-nav">
+                <nav class="links">
+                    <a href="#">Dashboard</a>
+                    <a href="#" class="active">Topics</a>
+                    <a href="#">Questions</a>
+                    <a href="#">Submissions</a>
+                    <a href="#">Notes</a>
+                </nav>
+                <div class="search-profile">
+                    <div class="search-bar">
+                        <input type="text" id="searchInput" placeholder="Search problems, topics, code...">
+                    </div>
+                    <div class="profile">
+                        <img src="profile_pic.jpeg" alt="Profile" class="avatar">
+                        <span>KRUMER</span>
+                    </div>
+                </div>
+            </header>
+            
+            <!-- Split Pane Area -->
+            <div class="split-container">
+                <!-- List Pane (Left) -->
+                <main class="list-pane" id="listPane">
+                    <div class="content-header">
+                        <h2>Custom Nodes & Questions</h2>
+                        <div class="controls">
+                            <span class="item-count" id="itemCount">0 items</span>
+                            <select class="sort-select">
+                                <option>Newest First</option>
+                                <option>Oldest First</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- Cards Container -->
+                    <div class="cards-container" id="cardsContainer">
+                        <!-- Cards will be injected here by app.js -->
+                    </div>
+                </main>
+
+                <!-- Resizer Handle -->
+                <div class="resizer" id="dragMe"></div>
+
+                <!-- Detail Pane (Right) -->
+                <aside class="detail-pane" id="detailPane">
+                    <div id="detailEmptyState" class="empty-state">
+                        <p>Select a notes to view details</p>
+                    </div>
+                    <div id="detailContent" class="detail-content hidden">
+                        <div class="detail-header">
+                            <h3 id="detailTitle">Title</h3>
+                            <button class="close-btn" id="closeDetail" title="Close Pane">&times;</button>
+                        </div>
+                        <div class="detail-tags" id="detailTags"></div>
+                        <div class="detail-body">
+                            <p id="detailDesc" class="description"></p>
+                            
+                            <!-- Custom Notes Markdown Container -->
+                            <div id="detailCustomNotes" class="markdown-body" style="margin-top: 15px; margin-bottom: 25px; line-height: 1.6; color: var(--text-primary);"></div>
+                            
+                            <div class="solution-section">
+                                <h4>Solution Discussion & Code</h4>
+                                <p>Below is the Python implementation fetched directly from the repository.</p>
+                                
+                                <div class="code-block-wrapper">
+                                    <div class="code-header">
+                                        <span>Python</span>
+                                        <button class="copy-btn" id="copyCodeBtn">Copy</button>
+                                    </div>
+                                    <pre><code class="language-python" id="detailCode"></code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toastNotification" class="toast hidden">Code Copied!</div>
+
+    <!-- Highlight.js scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/python.min.js"></script>
+    
+    <!-- Marked.js for Markdown parsing -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    
+    <script src="app.js"></script>
+</body>
+</html>

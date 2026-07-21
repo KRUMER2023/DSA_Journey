@@ -1,0 +1,114 @@
+[
+  {
+    "id": "a-pow-n-recursive",
+    "title": "a^n Recursive",
+    "difficulty": "Easy",
+    "status": "Solved",
+    "topic": [
+      "Math"
+    ],
+    "description": "Calculates a to the power of n using recursive approach which runs in O(log n) time by squaring.",
+    "filePath": "../Notes/CodesWithNotes/a_pow_n_recursive.py",
+    "customNotes": "../Notes/CodesWithNotes/a_pow_n_recursive_notes.md",
+    "addedAt": "2026-07-19T10:00:00Z",
+    "customTags": ["Recursion", "Math Basics"]
+  },
+  {
+    "id": "dsu",
+    "title": "Disjoint Set Union (DSU)",
+    "difficulty": "Medium",
+    "status": "Solved",
+    "topic": [
+      "Graphs"
+    ],
+    "description": "DSU (Disjoint Set Union), also known as Union-Find, is a data structure designed to track a set of elements partitioned into multiple non-overlapping subsets.",
+    "filePath": "../Notes/CodesWithNotes/DSU.py",
+    "customNotes": "../Notes/CodesWithNotes/DSU_notes.md",
+    "addedAt": "2026-07-20T10:00:00Z",
+    "customTags": ["Important Data Structure"]
+  },
+  {
+    "id": "monotonic-stacks",
+    "title": "Monotonic Stacks",
+    "difficulty": "Hard",
+    "status": "Solved",
+    "topic": [
+      "Stacks"
+    ],
+    "description": "Implementation of Next Greater Element, Previous Greater Element, Next Smaller Element, and Previous Smaller Element using Monotonic Stacks.",
+    "filePath": "../Notes/CodesWithNotes/monotonic_stacks.py",
+    "customNotes": "../Notes/CodesWithNotes/monotonic_stacks_notes.md",
+    "addedAt": "2026-07-21T05:00:00Z",
+    "customTags": ["Tricky", "Core Concept"]
+  },
+  {
+    "id": "nge-pge-one-loop",
+    "title": "NGE PGE in One Loop",
+    "difficulty": "Medium",
+    "status": "New",
+    "topic": [
+      "Stacks"
+    ],
+    "description": "Finds the Next Greater Element (NGE) and Previous Greater Element (PGE) for all array elements in a single pass using a monotonic stack.",
+    "filePath": "../Notes/CodesWithNotes/nge_pge_one_loop.py",
+    "customNotes": "../Notes/CodesWithNotes/nge_pge_one_loop_notes.md",
+    "addedAt": "2026-07-21T10:00:00Z",
+    "customTags": ["Optimization", "Review Later"]
+  },
+  {
+    "id": "add-two-numbers",
+    "title": "Add Two Numbers",
+    "difficulty": "Medium",
+    "status": "Solved",
+    "topic": [
+      "Linked List"
+    ],
+    "description": "Adds two numbers represented as linked lists where each node stores one digit and the list head is the least significant digit.",
+    "filePath": "../Notes/CodesWithNotes/LC 2-Add Two Numbers.py",
+    "customNotes": "../Notes/CodesWithNotes/LC 2-Add Two Numbers_notes.md",
+    "addedAt": "2026-07-21T10:00:00Z",
+    "customTags": ["Classic Pattern"]
+  },
+  {
+    "id": "lc-930-binary-subarrays-with-sum",
+    "title": "LC 930-Binary Subarrays With Sum",
+    "difficulty": "Medium",
+    "status": "Solved",
+    "topic": [
+      "Array"
+    ],
+    "description": "Counts the number of subarrays whose sum equals a target using prefix sums and a frequency map for efficient O(n) processing.",
+    "filePath": "../Notes/CodesWithNotes/LC 930-Binary Subarrays With Sum.py",
+    "customNotes": "../Notes/CodesWithNotes/LC 930-Binary Subarrays With Sum_notes.md",
+    "addedAt": "2026-07-21T10:00:00Z",
+    "customTags": ["Prefix Sum", "Two Pointer"]
+  },
+  {
+    "id": "number-of-wonderful-substrings",
+    "title": "1915. Number of Wonderful Substrings",
+    "difficulty": "Hard",
+    "status": "Solved",
+    "topic": [
+      "String"
+    ],
+    "description": "Counts wonderful substrings by using prefix parity masks to detect substrings with at most one odd-frequency character.",
+    "filePath": "../Notes/CodesWithNotes/1915. Number of Wonderful Substrings.py",
+    "customNotes": "../Notes/CodesWithNotes/1915. Number of Wonderful Substrings_notes.md",
+    "addedAt": "2026-07-21T10:30:00Z",
+    "customTags": ["Bitmask", "Hard To Grasp"]
+  },
+  {
+    "id": "lc-525-contiguous-array",
+    "title": "LC 525 - Contiguous Array",
+    "difficulty": "Medium",
+    "status": "Solved",
+    "topic": [
+      "Array"
+    ],
+    "description": "Finds the longest subarray with an equal number of 0s and 1s using a prefix-sum and hashmap approach.",
+    "filePath": "../Notes/CodesWithNotes/LC 525 - Contiguous Array.py",
+    "customNotes": "../Notes/CodesWithNotes/LC 525 - Contiguous Array_notes.md",
+    "addedAt": "2026-07-21T10:35:00Z",
+    "customTags": ["standard pattern", "Optimized"]
+  }
+]

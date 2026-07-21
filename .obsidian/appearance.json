@@ -1,7 +1,8 @@
 {
   "cssTheme": "Blue Topaz",
-  "baseFontSize": 22,
+  "baseFontSize": 11,
   "baseFontSizeAction": true,
   "interfaceFontFamily": "",
-  "textFontFamily": "Comic Sans MS"
+  "textFontFamily": "Comic Sans MS",
+  "showRibbon": true
 }

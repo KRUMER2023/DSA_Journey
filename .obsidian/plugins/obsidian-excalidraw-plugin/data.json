@@ -44747,7 +44747,7 @@
     "paperColor": "white",
     "customPaperColor": "#ffffff",
     "alignment": "center",
-    "margin": "normal"
+    "margin": "tiny"
   },
   "disableContextMenu": false
 }
