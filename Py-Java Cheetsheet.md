@@ -31,7 +31,7 @@
 | Mod Constant            | `MOD = 10**9 + 7`                      | `static final int MOD = 1000000007;`                                                         |
 | Counter                 | `cnt = Counter(arr)`                   | `HashMap<Integer,Integer> cnt = new HashMap<>();`                                            |
 | Pair List               | `pairs = [(1,2)]`                      | `ArrayList<Pair<Integer,Integer>> pairs = new ArrayList<>();`                                |
-| Matrix List             | `mat = [[1,2],[3,4]]`                  | `int[][] mat = {{1,2},{3,4}};`                                                               |
+| Matrix List             | `mat = [[1,2],[3,4]]`                  | {% raw %}`int[][] mat = {{1,2},{3,4}};`{% endraw %}                                          |
 | String Array            | `arr = ["a","b"]`                      | `String[] arr = {"a","b"};`                                                                  |
 | Integer Stream List     | `arr = list(map(int,input().split()))` | `int[] arr = Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();` |
 | Clone List              | `b = a[:]`                             | `ArrayList<Integer> b = new ArrayList<>(a);`                                                 |
