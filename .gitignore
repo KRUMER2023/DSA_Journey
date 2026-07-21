@@ -1,4 +1,6 @@
-.vscode
+# IDEs and Editors
+.vscode/
+.obsidian/
 
 # Python
 __pycache__/

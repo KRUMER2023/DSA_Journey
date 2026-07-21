@@ -13,10 +13,10 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "LC_WhiteBoard_Sol/Drawing 2026-07-19 09.42.51.excalidraw.md"
+                "file": "Notes/Intuition Points - Tips/Intutions.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2026-07-19 09.42.51.excalidraw"
+              "title": "Intutions.excalidraw"
             }
           }
         ]
@@ -183,22 +183,26 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "11c4e587981c2a73",
+  "active": "fb0e1d8dde7126d2",
   "lastOpenFiles": [
-    "LC_WhiteBoard_Sol/992. Subarrays with K Different Integers.md",
-    "LC_WhiteBoard_Sol/838. Push Dominoes.excalidraw.md",
-    "LC_WhiteBoard_Sol/Drawing 2026-07-19 09.42.51.excalidraw.md",
-    "Notes/Intuition Points - Tips/Intuitions.md",
-    "Notes/Intuition Points - Tips/Intutions.excalidraw.md",
     "Notes/Intuition Points - Tips/Intutions-pdf.pdf",
-    "Notes/Intuition Points - Tips/Subarray-Substring General Intuition.md",
+    "Notes/Intuition Points - Tips/Intutions.excalidraw.md",
+    "LC_WhiteBoard_Sol/Drawing 2026-07-19 09.42.51.excalidraw.md",
+    "Gems/Elite DSA Cook.md",
+    "LC_WhiteBoard_Sol/143. Reorder List.md",
+    "LC_WhiteBoard_Sol/788 Rotated Digits.md",
+    "LC_WhiteBoard_Sol/992. Subarrays with K Different Integers.md",
     "LC_WhiteBoard_Sol/1861. Rotating the Box.md",
+    "NotesRule.md",
+    "Py-Java Cheetsheet.md",
+    "LC_WhiteBoard_Sol/838. Push Dominoes.excalidraw.md",
+    "Notes/Intuition Points - Tips/Intuitions.md",
+    "Notes/Intuition Points - Tips/Subarray-Substring General Intuition.md",
     "Notes/Intuition Points - Tips/Patterns Formulas.md",
     "Notes/Intuition Points - Tips/Py Dict methods.md",
     "Notes/Intuition Points - Tips/Intutions.excalidraw.pdf",
     "Untitled.canvas",
     "2026-07-14.md",
-    "Py-Java Cheetsheet.md",
     "README.md",
     "Notes_PDFs/Py-Java Cheetsheet.pdf",
     "Notes_PDFs/Python Course with Notes/11. Chapter 11/Chapter 11.pdf",
@@ -211,9 +215,6 @@
     "LC_WhiteBoard_Sol/Pasted Image 20260522180938_129.png",
     "LC_WhiteBoard_Sol/Pasted Image 20260506081217_290.png",
     "LC_WhiteBoard_Sol/Pasted Image 20260506081156_601.png",
-    "LC_WhiteBoard_Sol/788 Rotated Digits.md",
-    "LC_WhiteBoard_Sol/143. Reorder List.md",
-    "Gems/Elite DSA Cook.md",
     "Excalidraw/LC-3532.excalidraw.md",
     "Excalidraw/Pasted Image 20260709111833_384.png",
     "LC/992. Subarrays with K Different Integers.md",
@@ -224,8 +225,6 @@
     "OOPs/Association.md",
     "Stacks/Stacks Mastery.md",
     "Stacks/Beginner Patterns.md",
-    "Excalidraw/Drawing 2026-05-29 19.34.23.excalidraw.md",
-    "WEB/Promises.md",
     "eye1.png",
     "Phone_VR_BG.png",
     "LC/Pasted Image 20260522180938_129.png",
